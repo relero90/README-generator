@@ -28,16 +28,6 @@ inquirer
       name: "usage",
     },
     {
-      type: "input",
-      message: "How can others contribute to this project?",
-      name: "tocontribute",
-    },
-    {
-      type: "input",
-      message: "How can this project be tested?",
-      name: "testing",
-    },
-    {
       type: "list",
       message: "Which license is your project covered under?",
       choices: [
@@ -66,6 +56,21 @@ inquirer
         "Weblate Component",
       ],
       name: "license",
+    },
+    {
+      type: "input",
+      message: "What additional credits need to be provided?",
+      name: "credits",
+    },
+    {
+      type: "input",
+      message: "How can others contribute to this project?",
+      name: "tocontribute",
+    },
+    {
+      type: "input",
+      message: "How can this project be tested?",
+      name: "testing",
     },
     {
       type: "input",
