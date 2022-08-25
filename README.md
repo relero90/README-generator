@@ -1,33 +1,21 @@
-# ${data.title}
+# Title
 
 ## Description
-
-${data.description}
 
 ## Table of Contents
 
 ## Installation
 
-${data.installation}
-
 ## Usage
-
-${data.usage}
 
 ## Credits
 
-${data.credits}
-
 ## License
-
-${data.license}
 
 ## Badges
 
+## Features
+
 ## How to Contribute
 
-${data.tocontribute}
-
 ## Tests
-
-${data.testing}
