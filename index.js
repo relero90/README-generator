@@ -2,6 +2,8 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+console.log(generateMarkdown());
+// console.log(generateMarkdown);
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -19,7 +21,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
+// fileName as a variable? Is it going to change?
 function writeToREADME(fileName, data) {
+  console.log("yay");
   inquirer
     .prompt([
       {
@@ -104,16 +108,18 @@ function writeToREADME(fileName, data) {
       },
     ])
     .then((data) =>
-      fs.writeFile(
-        "./output/README.md",
-        generateMarkdown.generateMarkdown(data),
-        (error) => (error ? console.error(error) : console.log("Success!"))
+      fs.writeFile("./output/README.md", generateMarkdown(data), (error) =>
+        error ? console.error(error) : console.log("Success!")
       )
     );
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  if (process.argv[2] === "go") {
+    writeToREADME();
+  }
+}
 
 // Function call to initialize app
 init();
