@@ -10,22 +10,22 @@ function renderLicenseBadge(license) {
   switch (licensePick) {
     case "Apache License 2.0":
       message = "Apache_2.0";
-      color = "blue";
+      color = "success";
       badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
       break;
     case "GNU GPL v3":
-      message = "GNU_GPL_v3";
-      color = "success";
+      message = "GPL_v3";
+      color = "blue";
       badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
       break;
     case "MIT":
       message = "MIT";
-      color = "blueviolet";
+      color = "yellow";
       badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
       break;
     case "ISC":
       message = "ISC";
-      color = "blueviolet";
+      color = "blue";
       badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
       break;
     default:
@@ -89,7 +89,7 @@ ${data.description}
 1. [Credits](#credits)
 1. [How to Contribute](#how-to-contribute)
 1. [Testing](#testing)
-1. [Questions?](#questions?)
+1. [Questions?](#questions)
 
 ## Installation
 ---
@@ -101,7 +101,7 @@ ${data.usage}
 
 ## Licensing
 ---
-[Click here for more information about the ${data.license} license](${licenseSec[1]}})
+[Click here for more information about the ${data.license} license](${licenseSec[1]})
 
 ## Credits
 ---

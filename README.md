@@ -1,67 +1,31 @@
-# ${data.title}
-
-![${data.license}](${licenseSec[0]})
+# Dynamic README Generator
 
 ## Description
 
 ---
 
-${data.description}
+This is an app designed to dynamically create README.md files based on user inputs. The generated files will include a title, description, and table of contents with links to each of the following sections:
 
-## Table of Contents
+- Installation
+- Usage
+- Licensing
+- Credits
+- How to Contribute
+- Testing
+- Questions
 
----
-
-1. [Installation Instructions](##Installation)
-1. [Usage Recommendations](##Usage)
-1. [Credits](##Credits)
-1. [Licensing](##Licensing)
-1. [Badges](##Badges)
-1. [Features](##Features)
-1. [How to Contribute](##HowtoContribute)
-1. [Testing](##Tests)
-1. [Questions?](##Questions)
-
-## Installation
+## Usage Recommendations
 
 ---
 
-${data.installation}
+To use this app, clone the repository code to your local device. From the command line, run "node index.js go" to initiate the application.
 
-## Usage
+See the following demonstration video for additional support:
+[Demo Video](https://watch.screencastify.com/v/PtzbW6oYx0rRvAcWve01)
 
----
-
-${data.usage}
-
-## Licensing
+## Questions?
 
 ---
 
-[${data.license}](${licenseSec[1]}})
-![${data.license}](${licenseSec[0]})
-
-## Contributors
-
----
-
-${data.credits}
-
-## Contributing
-
----
-
-${data.tocontribute}
-
-## Tests
-
----
-
-${data.testing}
-
-## Questions
-
----
-
-- Email: [${data.email}](${data.email})
-- GitHub: [${data.github}](https://github.com/${data.github})
+- Email: [relero90@gmail.com](relero90@gmail.com)
+- GitHub: [relero90](https://github.com/relero90)

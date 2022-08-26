@@ -1,63 +1,62 @@
-# Just a Title
+# Bill's Wiznuggets
 
-![MIT](https://img.shields.io/badge/license-MIT-blueviolet)
+![MIT](https://img.shields.io/badge/license-MIT-yellow)
 
 ## Description
 
 ---
 
-Its a very useful project. Trust me.
+This is a web app that provides random nuggets of wisdom from my dog, Bill. It is useful because he is omniscient.
 
 ## Table of Contents
 
 ---
 
-1. [Installation Instructions](#installation)
+1. [Installation](#installation)
 1. [Usage Recommendations](#usage)
 1. [Licensing](#licensing)
 1. [Credits](#credits)
-1. [Features](#features)
 1. [How to Contribute](#how-to-contribute)
-1. [Testing](#tests)
+1. [Testing](#testing)
 1. [Questions?](#questions)
 
 ## Installation
 
 ---
 
-You can do it. I believe in you.
+Run the index.html in your browser of choice.
 
-## Usage
+## Usage Recommendations
 
 ---
 
-Be nice about it.
+Use all you want but be sure to give Bill credit for his wisdom.
 
 ## Licensing
 
 ---
 
-[MIT](https://choosealicense.com/licenses/mit/})
+[Click here for more information about the MIT license](https://choosealicense.com/licenses/mit/)
 
 ## Credits
 
 ---
 
-helpers
+Bill dropped all the wiznuggets for this app.
 
-## Contributing
-
----
-
-add your voice by...
-
-## Tests
+## How to Contribute
 
 ---
 
-blah
+Bill readily accepts meats and cheeses.
 
-## Questions
+## Testing
+
+---
+
+To test, open bill.test.js and run npm run test in the command line.
+
+## Questions?
 
 ---
 
