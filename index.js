@@ -5,22 +5,22 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
-  "What is the title of your project?",
-  "Describe the project. What does it do? Why is it useful?",
-  "How can a user install your project?",
-  "How can this project be used?",
-  "Under which license is your project covered?",
-  "What additional credits need to be provided?",
-  "How can others contribute to this project?",
-  "How can this project be tested?",
+  "What is the title of your project? ",
+  "Describe the project. What does it do? Why is it useful? ",
+  "Installation instructions: ",
+  "Usage instructions: ",
+  "Which license is your project using? ",
+  "Credits: ",
+  "Contribution guidelines: ",
+  "Testing instructions: ",
   "What is your GitHub username?",
   "What is your email address?",
-  "How can you be reached for further questions?",
 ];
+//description, installation instructions, usage information, contribution guidelines, and test instructions
 
 // TODO: Create a function to write README file
 // fileName as a variable? Is it going to change?
-function writeToREADME(fileName, data) {
+function writeToREADME(data) {
   inquirer
     .prompt([
       {
@@ -47,29 +47,11 @@ function writeToREADME(fileName, data) {
         type: "list",
         message: questions[4],
         choices: [
-          "APM",
-          "AUR",
-          "Bower",
-          "Cocoapods",
-          "Conda",
-          "CPAN",
-          "CRAN/METACRAN",
-          "Crates.io",
-          "CTAN",
-          "DUB",
-          "Eclipse Marketplace",
-          "GitHub",
-          "GitLab",
-          "GitLab (self-managed)",
-          "Greasy Fork",
-          "Hex.pm",
-          "NPM",
-          "Ore",
-          "Packagist",
-          "Packagist (custom server)",
-          "PyPI",
-          "REUSE Compliance",
-          "Weblate Component",
+          "Apache License 2.0",
+          "GNU GPL v3",
+          "MIT",
+          "ISC",
+          "None of the above",
         ],
         name: "license",
       },
@@ -97,11 +79,6 @@ function writeToREADME(fileName, data) {
         type: "input",
         message: questions[9],
         name: "email",
-      },
-      {
-        type: "input",
-        message: questions[10],
-        name: "tocontact",
       },
     ])
     .then((data) => {
