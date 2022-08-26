@@ -9,12 +9,12 @@ function renderLicenseBadge(license) {
   // Switch statement generates value of label, message, color & adds them to URL
   switch (licensePick) {
     case "Apache License 2.0":
-      message = "Apache2.0";
+      message = "Apache_2.0";
       color = "blue";
       badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
       break;
     case "GNU GPL v3":
-      message = "GNUGPLv3";
+      message = "GNU_GPL_v3";
       color = "success";
       badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
       break;
@@ -29,7 +29,7 @@ function renderLicenseBadge(license) {
       badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
       break;
     default:
-      message = "N/A";
+      message = "NA";
       color = "lightgrey";
       badgeURL = `https://img.shields.io/badge/${label}-${message}-${color}`;
   }
