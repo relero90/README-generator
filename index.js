@@ -47,7 +47,7 @@ function writeToREADME(data) {
         type: "list",
         message: questions[4],
         choices: [
-          "Apache License 2.0",
+          "Apache 2.0",
           "GNU GPL v3",
           "MIT",
           "ISC",

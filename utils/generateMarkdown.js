@@ -101,7 +101,7 @@ ${data.usage}
 
 ## Licensing
 ---
-[${data.license}](${licenseSec[1]}})
+[Click here for more information about the ${data.license} license](${licenseSec[1]}})
 
 ## Credits
 ---
