@@ -83,21 +83,19 @@ ${data.description}
 
 ## Table of Contents
 ---
-1. [Installation Instructions](##Installation)
-1. [Usage Recommendations](##Usage)
-1. [Credits](##Credits)
-1. [Licensing](##Licensing)
-1. [Badges](##Badges)
-1. [Features](##Features)
-1. [How to Contribute](##HowtoContribute)
-1. [Testing](##Tests)
-1. [Questions?](##Questions)
+1. [Installation](#installation)
+1. [Usage Recommendations](#usage)
+1. [Licensing](#licensing)
+1. [Credits](#credits)
+1. [How to Contribute](#how-to-contribute)
+1. [Testing](#testing)
+1. [Questions?](#questions?)
 
 ## Installation
 ---
 ${data.installation}
 
-## Usage
+## Usage Recommendations
 ---
 ${data.usage}
 
@@ -105,19 +103,19 @@ ${data.usage}
 ---
 [${data.license}](${licenseSec[1]}})
 
-## Contributors
+## Credits
 ---
 ${data.credits}
 
-## Contributing
+## How to Contribute
 ---
 ${data.tocontribute}
 
-## Tests
+## Testing
 ---
 ${data.testing}
 
-## Questions
+## Questions?
 ---
 * Email: [${data.email}](${data.email})
 * GitHub: [${data.github}](https://github.com/${data.github})   
